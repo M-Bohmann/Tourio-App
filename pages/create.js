@@ -19,6 +19,7 @@ export default function CreatePlacePage() {
       },
       body: JSON.stringify(place),
     });
+    router.push("/");
   }
   return (
     <>
